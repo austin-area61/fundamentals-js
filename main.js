@@ -5,3 +5,6 @@ lostDollar --;
 
 console.log(gainedDollar);
 console.log(lostDollar);
+
+const favoriteAnimal = 'Eagle';
+console.log('My favorite animal: ' + favoriteAnimal)// String Concatenation with Variables
