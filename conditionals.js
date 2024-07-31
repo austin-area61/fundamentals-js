@@ -81,3 +81,21 @@ if (season === "spring") {
 } else {
   console.log("Invalid season.");
 }
+
+//using switch cases in place of else if statements
+let finalPosition = "first place";
+
+switch (finalPosition) {
+  case "first place":
+    console.log("You get the gold medal!");
+    break;
+  case "second place":
+    console.log("You get the silver medal!");
+    break;
+  case "third place":
+    console.log("You get the bronze medal!");
+    break;
+  default:
+    console.log('No medal awarded.');
+    break;
+}
