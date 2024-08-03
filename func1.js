@@ -16,6 +16,20 @@ sayThanks('Cole');
 function greeting (name = 'stranger') {
   console.log(`Hello, ${name}!`)
 }
-
 greeting('Austin') // Output: Hello, Austin!
 greeting() // Output: Hello, stranger!
+
+
+function makeShoppingList(item1 = 'milk', item2 = 'bread', item3 = 'eggs'){
+  console.log(`Remember to buy ${item1}`);
+  console.log(`Remember to buy ${item2}`);
+  console.log(`Remember to buy ${item3}`);
+}
+makeShoppingList();
+
+//
+function monitorCount( rows =5 , columns = 4) {
+  return rows * columns;
+};
+const numOfMonitors = monitorCount(5,4);
+console.log(numOfMonitors);
