@@ -13,7 +13,7 @@ console.log(totalCost);
 
 
 //defining a function using a function expression
-const plantNeedsWater = function (day) {
+const plantNeedsWater = (day)  => {
   if( day === 'Wednesday'){
     return true;
   } else {
