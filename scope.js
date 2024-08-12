@@ -1,3 +1,4 @@
+//Global variable scope
 const city = "New York City";
 function logCitySkyline() {
   let skyscraper = "Empire State Building";
@@ -5,4 +6,12 @@ function logCitySkyline() {
 }
 
 /*logCitySkyline();*/
-console.log(logCitySkyline())
+console.log(logCitySkyline());
+
+//Local variable scope
+const logVisibleLightWaves = () => {
+  const lightWaves = 'Moonlight';
+  console.log(lightWaves);
+}
+logVisibleLightWaves();
+console.log(lightWaves);
