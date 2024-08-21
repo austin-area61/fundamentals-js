@@ -16,6 +16,7 @@ const utensils = ['Fork', 'Knife', 'Chopsticks', 'Spork'];
 condiments[0] = 'Mayo';
 console.log(condiments);
 
+
 condiments = ['Mayo'];
 console.log(condiments);// you can re-assign elements in an array and re-assign an entire new array to a variable declared using the let keyword.
 
@@ -43,3 +44,4 @@ console.log(concept);
 function removeElement(newArr) {
   newArr.pop();
 }
+removeElement(concept);
